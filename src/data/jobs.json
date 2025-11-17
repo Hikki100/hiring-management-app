@@ -1,0 +1,98 @@
+[
+  {
+    "id": "job_001",
+    "slug": "frontend-developer",
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "status": "active",
+    "description": "Kami mencari Frontend Developer yang berpengalaman dengan React dan Next.js untuk bergabung dengan tim kami.",
+    "requirements": [
+      "Minimal 2 tahun pengalaman dengan React",
+      "Menguasai HTML, CSS, JavaScript",
+      "Familiar dengan Git dan version control"
+    ],
+    "salary_range": {
+      "min": 7000000,
+      "max": 10000000,
+      "currency": "IDR",
+      "display_text": "Rp 7.000.000 - Rp 10.000.000"
+    },
+    "created_at": "2025-01-15",
+    "application_form": {
+      "fields": [
+        { "key": "full_name", "label": "Nama Lengkap", "required": true },
+        { "key": "email", "label": "Email", "required": true },
+        { "key": "phone", "label": "Nomor Telepon", "required": true },
+        { "key": "gender", "label": "Jenis Kelamin", "required": true },
+        { "key": "domicile", "label": "Domisili", "required": false },
+        { "key": "linkedin", "label": "LinkedIn", "required": true },
+        { "key": "date_of_birth", "label": "Tanggal Lahir", "required": false },
+        { "key": "photo", "label": "Foto Profil", "required": true }
+      ]
+    }
+  },
+  {
+    "id": "job_002",
+    "slug": "backend-developer",
+    "title": "Backend Developer",
+    "department": "Engineering",
+    "status": "active",
+    "description": "Bergabunglah dengan tim backend kami untuk membangun sistem yang scalable dan reliable.",
+    "requirements": [
+      "Pengalaman dengan Node.js atau Python",
+      "Memahami database SQL dan NoSQL",
+      "Familiar dengan RESTful API"
+    ],
+    "salary_range": {
+      "min": 8000000,
+      "max": 12000000,
+      "currency": "IDR",
+      "display_text": "Rp 8.000.000 - Rp 12.000.000"
+    },
+    "created_at": "2025-01-10",
+    "application_form": {
+      "fields": [
+        { "key": "full_name", "label": "Nama Lengkap", "required": true },
+        { "key": "email", "label": "Email", "required": true },
+        { "key": "phone", "label": "Nomor Telepon", "required": true },
+        { "key": "gender", "label": "Jenis Kelamin", "required": false },
+        { "key": "domicile", "label": "Domisili", "required": false },
+        { "key": "linkedin", "label": "LinkedIn", "required": false },
+        { "key": "date_of_birth", "label": "Tanggal Lahir", "required": false },
+        { "key": "photo", "label": "Foto Profil", "required": false }
+      ]
+    }
+  },
+  {
+    "id": "job_003",
+    "slug": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "department": "Design",
+    "status": "draft",
+    "description": "Kami mencari UI/UX Designer yang kreatif untuk membuat pengalaman pengguna yang luar biasa.",
+    "requirements": [
+      "Portfolio design yang kuat",
+      "Menguasai Figma dan Adobe XD",
+      "Memahami user research"
+    ],
+    "salary_range": {
+      "min": 6000000,
+      "max": 9000000,
+      "currency": "IDR",
+      "display_text": "Rp 6.000.000 - Rp 9.000.000"
+    },
+    "created_at": "2025-01-12",
+    "application_form": {
+      "fields": [
+        { "key": "full_name", "label": "Nama Lengkap", "required": true },
+        { "key": "email", "label": "Email", "required": true },
+        { "key": "phone", "label": "Nomor Telepon", "required": true },
+        { "key": "gender", "label": "Jenis Kelamin", "required": true },
+        { "key": "domicile", "label": "Domisili", "required": true },
+        { "key": "linkedin", "label": "LinkedIn", "required": true },
+        { "key": "date_of_birth", "label": "Tanggal Lahir", "required": false },
+        { "key": "photo", "label": "Foto Profil", "required": true }
+      ]
+    }
+  }
+]

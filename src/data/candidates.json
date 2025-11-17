@@ -1,0 +1,98 @@
+[
+  {
+    "id": "cand_001",
+    "job_id": "job_001",
+    "full_name": "rizky hidayat",
+    "email": "rizky.hidayat@example.com",
+    "phone": "+62123456789",
+    "gender": "Male",
+    "domicile": "Jakarta",
+    "linkedin": "",
+    "date_of_birth": "1998-05-15",
+    "applied_date": "2025-01-15"
+  },
+  {
+    "id": "cand_002",
+    "job_id": "job_001",
+    "full_name": "Budi",
+    "email": "budi.santoso@example.com",
+    "phone": "+62123456789",
+    "gender": "Male",
+    "domicile": "Bandung",
+    "linkedin": "",
+    "date_of_birth": "1997-08-22",
+    "applied_date": "2025-01-16"
+  },
+  {
+    "id": "cand_003",
+    "job_id": "job_001",
+    "full_name": "Siti",
+    "email": "siti.rahayu@example.com",
+    "phone": "+62123456789",
+    "gender": "Female",
+    "domicile": "Surabaya",
+    "linkedin": "",
+    "date_of_birth": "1999-03-10",
+    "applied_date": "2025-01-17"
+  },
+  {
+    "id": "cand_004",
+    "job_id": "job_002",
+    "full_name": "Ahmad Rizki",
+    "email": "ahmad.rizki@example.com",
+    "phone": "+62123456789",
+    "gender": "Male",
+    "domicile": "Yogyakarta",
+    "linkedin": "",
+    "date_of_birth": "1996-11-30",
+    "applied_date": "2025-01-14"
+  },
+  {
+    "id": "cand_005",
+    "job_id": "job_002",
+    "full_name": "Dewi",
+    "email": "dewi.lestari@example.com",
+    "phone": "+62123456789",
+    "gender": "Female",
+    "domicile": "Semarang",
+    "linkedin": "",
+    "date_of_birth": "1998-07-18",
+    "applied_date": "2025-01-15"
+  },
+  {
+    "id": "cand_006",
+    "job_id": "job_001",
+    "full_name": "Rudi",
+    "email": "rudi.hartono@example.com",
+    "phone": "+62123456789",
+    "gender": "Male",
+    "domicile": "Medan",
+    "linkedin": "",
+    "date_of_birth": "1997-12-05",
+    "applied_date": "2025-01-18"
+  },
+  {
+    "id": "cand_007",
+    "job_id": "job_003",
+    "full_name": "Fitri",
+    "email": "fitri.amalia@example.com",
+    "phone": "+621234567890",
+    "gender": "Female",
+    "domicile": "Makassar",
+    "linkedin": "",
+    "date_of_birth": "1999-09-25",
+    "applied_date": "2025-01-13"
+  },
+  {
+    "id": "cand_008",
+    "job_id": "job_001",
+    "full_name": "Andi",
+    "email": "andi.wijaya@example.com",
+    "phone": "+621234567890",
+    "gender": "Male",
+    "domicile": "Bali",
+    "linkedin": "",
+    "date_of_birth": "1998-02-14",
+    "applied_date": "2025-01-19"
+  }
+]
