@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hiring Management Web App
 
-## Getting Started
+Platform manajemen rekrutmen untuk Admin (HRD) dan Job Seeker (Pelamar).
 
-First, run the development server:
+## 🚀 Tech Stack
+
+- Next.js 16.0.3
+- React 19.2.0
+- TailwindCSS 3.4.1
+- Lucide React (Icons)
+
+## 📦 How to Run Locally
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+2. Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open browser: http://localhost:3000
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🔑 Demo Credentials
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**Admin Account:**
 
-## Learn More
+- Email: admin@company.com
+- Password: admin123
 
-To learn more about Next.js, take a look at the following resources:
+**User Account:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Email: user@email.com
+- Password: user123
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## ✨ Key Features Implemented
 
-## Deploy on Vercel
+### Admin (HRD) Features:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Job Management (Create, View, Filter, Search)
+- ✅ Dynamic Form Configuration (Set mandatory/optional/hidden fields)
+- ✅ Candidate Management Table (Sort, Search, Pagination, Column Resize)
+- ✅ Job Statistics Dashboard
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### User (Job Seeker) Features:
+
+- ✅ Browse Active Job Listings
+- ✅ Dynamic Application Form (Adapts to admin configuration)
+- ✅ Webcam Capture with Gesture Detection (Keyboard simulation: Press 1-2-3)
+- ✅ Form Validation (Required/Optional fields)
+
+## 🎨 Design Highlights
+
+- Pixel-perfect implementation from Figma design
+- Responsive layout (mobile, tablet, desktop)
+- Modern UI with smooth transitions
+- Accessible components with proper contrast
+
+## 🔧 Optional Enhancements Added
+
+- Real-time search filtering
+- Job statistics cards
+- Success/error states with animations
+- Loading indicators for better UX
+
+## 📝 Design Assumptions
+
+- Backend API is mocked with JSON files (jobs.json, users.json, candidates.json)
+- Authentication uses localStorage (client-side only)
+- Webcam gesture uses keyboard simulation (1-2-3 keys) instead of real hand detection library
+- Photo capture works with standard browser MediaStream API
+
+## ⚠️ Known Limitations
+
+- No persistent database (data resets on page refresh)
+- Webcam gesture uses keyboard simulation instead of real hand tracking
+- No email notifications for applications
+- No file upload for resume/CV
