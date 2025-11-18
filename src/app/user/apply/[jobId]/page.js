@@ -98,6 +98,9 @@ export default function ApplyJobPage() {
     const newErrors = {};
 
     job.application_form.fields.forEach((field) => {
+      if (field.key === "photo" || field.key === "photo_profile") {
+        return; // Skip photo validation
+      }
       if (field.required && !formData[field.key]) {
         newErrors[field.key] = `${field.label} wajib diisi`;
       }

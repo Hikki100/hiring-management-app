@@ -27,7 +27,7 @@
         { "key": "domicile", "label": "Domisili", "required": false },
         { "key": "linkedin", "label": "LinkedIn", "required": true },
         { "key": "date_of_birth", "label": "Tanggal Lahir", "required": false },
-        { "key": "photo", "label": "Foto Profil", "required": true }
+        { "key": "photo", "label": "Foto Profil", "required": false }
       ]
     }
   },
@@ -91,7 +91,7 @@
         { "key": "domicile", "label": "Domisili", "required": true },
         { "key": "linkedin", "label": "LinkedIn", "required": true },
         { "key": "date_of_birth", "label": "Tanggal Lahir", "required": false },
-        { "key": "photo", "label": "Foto Profil", "required": true }
+        { "key": "photo", "label": "Foto Profil", "required": false }
       ]
     }
   }
